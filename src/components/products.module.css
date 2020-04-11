@@ -1,9 +1,21 @@
 .page {
-  background: lightskyblue;
+  width: 90vw;
+  max-width: 1170px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 2rem;
 }
-.page h1 {
-  color: orangered;
+
+.page span {
+  margin-left: 2rem;
+  color: grey;
 }
-.text {
-  text-transform: capitalize;
+
+.page article {
+  margin: 2rem 0;
+}
+
+.page div {
+  height: 15rem;
 }
